@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+st.set_page_config(
+    page_title="HeartGuard.AI",   # Title shown on browser tab
+    page_icon="❤️",                        # Favicon (emoji or image path)
+    layout="wide",                         # Optional: "centered" or "wide"
+    initial_sidebar_state="expanded"       # Optional: "auto", "expanded", "collapsed"
+)
+
 # Load saved model, scaler, and expected columns
 model = joblib.load("KNN_heart.pkl")
 scaler = joblib.load("scaler.pkl")
