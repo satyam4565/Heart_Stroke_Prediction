@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 st.set_page_config(
-    page_title="HeartGuard.AI",   # Title shown on browser tab
+    page_title="HeartGuardian.AI",   # Title shown on browser tab
     page_icon="❤️",                        # Favicon (emoji or image path)
     layout="wide",                         # Optional: "centered" or "wide"
     initial_sidebar_state="expanded"       # Optional: "auto", "expanded", "collapsed"
